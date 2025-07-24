@@ -9,7 +9,7 @@ import orderRout from "./routs/orderRout.js";
 
 dotenv.config();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 const app = express();
 
 connectDb();
