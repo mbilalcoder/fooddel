@@ -1,0 +1,73 @@
+.login-page{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+.login-popup{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: grid;
+}
+.login-form{
+  position: absolute;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-headings{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}
+.form-headings img{
+  height: 15px;
+  cursor: pointer;
+}
+.login-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.login-inputs input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+}
+.Login-btn{
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login-btn button{
+  width: 50%;
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: tomato;
+  border: none;
+}
+.change-login-status{
+  margin-top: 15px;
+}
+.change-login-status p{
+  font-weight: 300;
+}
+.change-login-status p span{
+  color: tomato;
+  font-weight: 500;
+  cursor: pointer;
+}
