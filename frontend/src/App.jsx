@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Cart from "./pages/cart/Cart";
 import Login from "./components/login-popup/Login";
 import Order from "./pages/order/Order";
-import Orders from "./pages/orders/Orders.js";
+import Orders from "./pages/orders/Orders";
 
 function App() {
   const [loginState, setLoginState] = useState(false);
