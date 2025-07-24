@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Orders.css";
+import "./orders.css";
 import { assets } from "../../assets/frontend_assets/assets";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchOrders } from "../../store/slices/foodSlice";
